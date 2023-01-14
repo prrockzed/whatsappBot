@@ -1,0 +1,26 @@
+{
+  "name": "whatsappbot",
+  "version": "1.0.0",
+  "description": "Used whatsapp-web.js to automate web whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prrockzed/whatsappBot.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "prrockzed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prrockzed/whatsappBot/issues"
+  },
+  "homepage": "https://github.com/prrockzed/whatsappBot#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
