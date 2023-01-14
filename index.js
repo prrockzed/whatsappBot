@@ -13,4 +13,17 @@ client.on('ready', () => {
   console.log('Client is ready!');
 });
 
+client.on('message', message => {
+  if (message.body === '!ping') {
+    message.reply('pong');
+  }
+});
+
+
+client.on('message', message => {
+  if (message.body === 'hi') {
+    client.sendMessage(message.from, 'hello');
+  }
+});
+
 client.initialize();
