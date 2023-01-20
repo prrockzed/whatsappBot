@@ -14,16 +14,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.body === '!ping') {
-    message.reply('pong');
-  }
-});
-
-
-client.on('message', message => {
-  if (message.body === 'hi') {
-    client.sendMessage(message.from, 'hello');
-  }
+  // if (message.body === '!ping') {
+  //   message.reply('pong');
+  // }
+  console.log(message.body)
 });
 
 client.initialize();
